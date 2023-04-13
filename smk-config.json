@@ -1,0 +1,1969 @@
+{
+    "name": "assignment-app",
+    "viewer": {
+        "type": "leaflet",
+        "location": {
+            "center": [
+                -123.93916558209337,
+                49.64883057466236
+            ],
+            "extent": [
+                -125.39672561930607,
+                48.138226278691874,
+                -122.48160554488065,
+                51.113970702131056
+            ],
+            "zoom": 8.342760481370016
+        },
+        "esriApiKey": "{{YOUR API KEY HERE}}",
+        "baseMap": "Imagery"
+    },
+    "layers": [
+        {
+            "type": "esri-dynamic",
+            "id": 5701,
+            "title": "Special Protection Areas - All - Colour Filled",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 6000000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "FEATURE_ID",
+                    "title": "Feature ID",
+                    "visible": true
+                },
+                {
+                    "name": "FOREST_FILE_ID",
+                    "title": "Forest File ID",
+                    "visible": false
+                },
+                {
+                    "name": "DESIGNATED_AREA",
+                    "title": "Designated Area",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_CODE",
+                    "title": "Feature Code",
+                    "visible": true
+                },
+                {
+                    "name": "OIC_YEAR",
+                    "title": "OIC Year",
+                    "visible": false
+                },
+                {
+                    "name": "OIC_NUMBER",
+                    "title": "OIC Number",
+                    "visible": false
+                },
+                {
+                    "name": "PROTECTED_AREA_STRATEGY",
+                    "title": "Protected Area Strategy",
+                    "visible": true
+                },
+                {
+                    "name": "MAP_BLOCK_ID",
+                    "title": "MAP_BLOCK_ID",
+                    "visible": false
+                },
+                {
+                    "name": "PROTECTED_AREA_NAME",
+                    "title": "Protected Area Name",
+                    "visible": true
+                },
+                {
+                    "name": "PROTECTED_AREA_TYPE",
+                    "title": "Protected Area Type",
+                    "visible": true
+                },
+                {
+                    "name": "PROTECTED_AREA_STATUS",
+                    "title": "Protected Area Status",
+                    "visible": true
+                },
+                {
+                    "name": "AREA_SIZE",
+                    "title": "AREA_SIZE",
+                    "visible": false
+                },
+                {
+                    "name": "EFFECTIVE_DATE",
+                    "title": "Effective Date",
+                    "visible": false
+                },
+                {
+                    "name": "RETIREMENT_DATE",
+                    "title": "Retirement Date",
+                    "visible": true
+                },
+                {
+                    "name": "COMMENTS",
+                    "title": "COMMENTS",
+                    "visible": false
+                },
+                {
+                    "name": "WHO_UPDATED",
+                    "title": "WHO_UPDATED",
+                    "visible": false
+                },
+                {
+                    "name": "WHEN_UPDATED",
+                    "title": "WHEN_UPDATED",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_CLASS_SKEY",
+                    "title": "FEATURE_CLASS_SKEY",
+                    "visible": false
+                },
+                {
+                    "name": "OBJECT_VERSION_SKEY",
+                    "title": "Object Version SKEY",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                },
+                {
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "Area Square Meters",
+                    "visible": true
+                },
+                {
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "Perimeter Meters",
+                    "visible": true
+                },
+                {
+                    "name": "GEOMETRY.AREA",
+                    "title": "GEOMETRY.AREA",
+                    "visible": false
+                },
+                {
+                    "name": "GEOMETRY.LEN",
+                    "title": "GEOMETRY.LEN",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "5701",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":5701,\"minScale\":6000000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_ADMIN_BOUNDARIES.FADM_SPECIAL_PROTECTION_AREA\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriSFS\",\"style\":\"esriSFSSolid\",\"color\":[255,153,0,255],\"outline\":{\"type\":\"esriSLS\",\"style\":\"esriSLSNull\",\"color\":[52,52,52,255],\"width\":0}},\"label\":\"\",\"description\":\"\"},\"transparency\":0,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/f23f2f3b-c5c1-4cee-a446-c84c53e1d4b6"
+        },
+        {
+            "type": "wms",
+            "id": "pub-whse-forest-tenure-fsp-fdu-poly-spg--1417",
+            "title": "Forest Development Units ( 1417 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "fsp-id",
+                    "name": "FSP_ID",
+                    "title": "FSP ID",
+                    "visible": true
+                },
+                {
+                    "id": "fdu-id",
+                    "name": "FDU_ID",
+                    "title": "FDU ID",
+                    "visible": true
+                },
+                {
+                    "id": "fsp-amendment-number",
+                    "name": "FSP_AMENDMENT_NUMBER",
+                    "title": "FSP AMENDMENT NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "sp-update-amendment-number",
+                    "name": "SP_UPDATE_AMENDMENT_NUMBER",
+                    "title": "SP UPDATE AMENDMENT NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "plan-name",
+                    "name": "PLAN_NAME",
+                    "title": "PLAN NAME",
+                    "visible": true
+                },
+                {
+                    "id": "fdu-name",
+                    "name": "FDU_NAME",
+                    "title": "FDU NAME",
+                    "visible": true
+                },
+                {
+                    "id": "plan-decision-date",
+                    "name": "PLAN_DECISION_DATE",
+                    "title": "PLAN DECISION DATE",
+                    "visible": true
+                },
+                {
+                    "id": "plan-start-date",
+                    "name": "PLAN_START_DATE",
+                    "title": "PLAN START DATE",
+                    "visible": true
+                },
+                {
+                    "id": "plan-end-date",
+                    "name": "PLAN_END_DATE",
+                    "title": "PLAN END DATE",
+                    "visible": true
+                },
+                {
+                    "id": "amendment-approval-date",
+                    "name": "AMENDMENT_APPROVAL_DATE",
+                    "title": "AMENDMENT APPROVAL DATE",
+                    "visible": true
+                },
+                {
+                    "id": "map-label",
+                    "name": "MAP_LABEL",
+                    "title": "MAP LABEL",
+                    "visible": true
+                },
+                {
+                    "id": "current-amendment-number",
+                    "name": "CURRENT_AMENDMENT_NUMBER",
+                    "title": "CURRENT AMENDMENT NUMBER",
+                    "visible": true
+                },
+                {
+                    "id": "life-cycle-status-code",
+                    "name": "LIFE_CYCLE_STATUS_CODE",
+                    "title": "LIFE CYCLE STATUS CODE",
+                    "visible": true
+                },
+                {
+                    "id": "licence1",
+                    "name": "LICENCE1",
+                    "title": "LICENCE1",
+                    "visible": true
+                },
+                {
+                    "id": "file-type-code1",
+                    "name": "FILE_TYPE_CODE1",
+                    "title": "FILE TYPE CODE1",
+                    "visible": true
+                },
+                {
+                    "id": "licence2",
+                    "name": "LICENCE2",
+                    "title": "LICENCE2",
+                    "visible": true
+                },
+                {
+                    "id": "file-type-code2",
+                    "name": "FILE_TYPE_CODE2",
+                    "title": "FILE TYPE CODE2",
+                    "visible": true
+                },
+                {
+                    "id": "licence3",
+                    "name": "LICENCE3",
+                    "title": "LICENCE3",
+                    "visible": true
+                },
+                {
+                    "id": "file-type-code3",
+                    "name": "FILE_TYPE_CODE3",
+                    "title": "FILE TYPE CODE3",
+                    "visible": true
+                },
+                {
+                    "id": "licence4",
+                    "name": "LICENCE4",
+                    "title": "LICENCE4",
+                    "visible": true
+                },
+                {
+                    "id": "file-type-code4",
+                    "name": "FILE_TYPE_CODE4",
+                    "title": "FILE TYPE CODE4",
+                    "visible": true
+                },
+                {
+                    "id": "licence5",
+                    "name": "LICENCE5",
+                    "title": "LICENCE5",
+                    "visible": true
+                },
+                {
+                    "id": "file-type-code5",
+                    "name": "FILE_TYPE_CODE5",
+                    "title": "FILE TYPE CODE5",
+                    "visible": true
+                },
+                {
+                    "id": "more-licence-ind",
+                    "name": "MORE_LICENCE_IND",
+                    "title": "MORE LICENCE IND",
+                    "visible": true
+                },
+                {
+                    "id": "client-number1",
+                    "name": "CLIENT_NUMBER1",
+                    "title": "CLIENT NUMBER1",
+                    "visible": true
+                },
+                {
+                    "id": "client-name1",
+                    "name": "CLIENT_NAME1",
+                    "title": "CLIENT NAME1",
+                    "visible": true
+                },
+                {
+                    "id": "client-number2",
+                    "name": "CLIENT_NUMBER2",
+                    "title": "CLIENT NUMBER2",
+                    "visible": true
+                },
+                {
+                    "id": "client-name2",
+                    "name": "CLIENT_NAME2",
+                    "title": "CLIENT NAME2",
+                    "visible": true
+                },
+                {
+                    "id": "client-number3",
+                    "name": "CLIENT_NUMBER3",
+                    "title": "CLIENT NUMBER3",
+                    "visible": true
+                },
+                {
+                    "id": "client-name3",
+                    "name": "CLIENT_NAME3",
+                    "title": "CLIENT NAME3",
+                    "visible": true
+                },
+                {
+                    "id": "client-number4",
+                    "name": "CLIENT_NUMBER4",
+                    "title": "CLIENT NUMBER4",
+                    "visible": true
+                },
+                {
+                    "id": "client-name4",
+                    "name": "CLIENT_NAME4",
+                    "title": "CLIENT NAME4",
+                    "visible": true
+                },
+                {
+                    "id": "client-number5",
+                    "name": "CLIENT_NUMBER5",
+                    "title": "CLIENT NUMBER5",
+                    "visible": true
+                },
+                {
+                    "id": "client-name5",
+                    "name": "CLIENT_NAME5",
+                    "title": "CLIENT NAME5",
+                    "visible": true
+                },
+                {
+                    "id": "more-client-ind",
+                    "name": "MORE_CLIENT_IND",
+                    "title": "MORE CLIENT IND",
+                    "visible": true
+                },
+                {
+                    "id": "amendment-updated-geometry-ind",
+                    "name": "AMENDMENT_UPDATED_GEOMETRY_IND",
+                    "title": "AMENDMENT UPDATED GEOMETRY IND",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area",
+                    "name": "FEATURE_AREA",
+                    "title": "FEATURE AREA",
+                    "visible": true
+                },
+                {
+                    "id": "feature-perimeter",
+                    "name": "FEATURE_PERIMETER",
+                    "title": "FEATURE PERIMETER",
+                    "visible": true
+                },
+                {
+                    "id": "feature-class-skey",
+                    "name": "FEATURE_CLASS_SKEY",
+                    "title": "FEATURE CLASS SKEY",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE AREA SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE LENGTH M",
+                    "visible": true
+                },
+                {
+                    "id": "geometry",
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE ANNO CAD DATA",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_FOREST_TENURE.FSP_FDU_POLY_SPG",
+            "styleName": "1417"
+        },
+        {
+            "type": "wms",
+            "id": "pub-whse-wildlife-management-crims-california-sealions--3730",
+            "title": "Distribution of California Sealions - Coastal Resource Information Management System (CRIMS) ( 3730 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "csealion-id",
+                    "name": "CSEALION_ID",
+                    "title": "CSEALION ID",
+                    "visible": true
+                },
+                {
+                    "id": "feature-code",
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE CODE",
+                    "visible": true
+                },
+                {
+                    "id": "ri",
+                    "name": "RI",
+                    "title": "RI",
+                    "visible": true
+                },
+                {
+                    "id": "csealion-comment",
+                    "name": "CSEALION_COMMENT",
+                    "title": "CSEALION COMMENT",
+                    "visible": true
+                },
+                {
+                    "id": "species",
+                    "name": "SPECIES",
+                    "title": "SPECIES",
+                    "visible": true
+                },
+                {
+                    "id": "project",
+                    "name": "PROJECT",
+                    "title": "PROJECT",
+                    "visible": true
+                },
+                {
+                    "id": "geometry",
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE ANNO CAD DATA",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE AREA SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE LENGTH M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_WILDLIFE_MANAGEMENT.CRIMS_CALIFORNIA_SEALIONS",
+            "styleName": "3730"
+        },
+        {
+            "type": "wms",
+            "id": "pub-whse-wildlife-management-crims-dalls-porpoises--3720",
+            "title": "Distribution of Dall's Porpoises - Coastal Resource Information Management System (CRIMS) ( 3720 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "dalporp-id",
+                    "name": "DALPORP_ID",
+                    "title": "DALPORP ID",
+                    "visible": true
+                },
+                {
+                    "id": "feature-code",
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE CODE",
+                    "visible": true
+                },
+                {
+                    "id": "ra",
+                    "name": "RA",
+                    "title": "RA",
+                    "visible": true
+                },
+                {
+                    "id": "ri",
+                    "name": "RI",
+                    "title": "RI",
+                    "visible": true
+                },
+                {
+                    "id": "location",
+                    "name": "LOCATION",
+                    "title": "LOCATION",
+                    "visible": true
+                },
+                {
+                    "id": "species",
+                    "name": "SPECIES",
+                    "title": "SPECIES",
+                    "visible": true
+                },
+                {
+                    "id": "source1",
+                    "name": "SOURCE1",
+                    "title": "SOURCE1",
+                    "visible": true
+                },
+                {
+                    "id": "dalporp-comment",
+                    "name": "DALPORP_COMMENT",
+                    "title": "DALPORP COMMENT",
+                    "visible": true
+                },
+                {
+                    "id": "project",
+                    "name": "PROJECT",
+                    "title": "PROJECT",
+                    "visible": true
+                },
+                {
+                    "id": "geometry",
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE ANNO CAD DATA",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE AREA SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE LENGTH M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_WILDLIFE_MANAGEMENT.CRIMS_DALLS_PORPOISES",
+            "styleName": "3720"
+        },
+        {
+            "type": "wms",
+            "id": "pub-whse-wildlife-management-crims-gray-whales--3721",
+            "title": "Distribution of Gray Whales - Coastal Resource Information Management System (CRIMS) ( 3721 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "gwhale-id",
+                    "name": "GWHALE_ID",
+                    "title": "GWHALE ID",
+                    "visible": true
+                },
+                {
+                    "id": "feature-code",
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE CODE",
+                    "visible": true
+                },
+                {
+                    "id": "ri",
+                    "name": "RI",
+                    "title": "RI",
+                    "visible": true
+                },
+                {
+                    "id": "location",
+                    "name": "LOCATION",
+                    "title": "LOCATION",
+                    "visible": true
+                },
+                {
+                    "id": "species",
+                    "name": "SPECIES",
+                    "title": "SPECIES",
+                    "visible": true
+                },
+                {
+                    "id": "gwhale-comment",
+                    "name": "GWHALE_COMMENT",
+                    "title": "GWHALE COMMENT",
+                    "visible": true
+                },
+                {
+                    "id": "source1",
+                    "name": "SOURCE1",
+                    "title": "SOURCE1",
+                    "visible": true
+                },
+                {
+                    "id": "project",
+                    "name": "PROJECT",
+                    "title": "PROJECT",
+                    "visible": true
+                },
+                {
+                    "id": "geometry",
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE ANNO CAD DATA",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE AREA SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE LENGTH M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_WILDLIFE_MANAGEMENT.CRIMS_GRAY_WHALES",
+            "styleName": "3721",
+            "popupTemplate": ""
+        },
+        {
+            "type": "wms",
+            "id": "pub-whse-wildlife-management-crims-harbour-porpoises--3722",
+            "title": "Distribution of Harbour Porpoises - Coastal Resource Information Management System (CRIMS) ( 3722 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "harbporp-id",
+                    "name": "HARBPORP_ID",
+                    "title": "HARBPORP ID",
+                    "visible": true
+                },
+                {
+                    "id": "feature-code",
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE CODE",
+                    "visible": true
+                },
+                {
+                    "id": "ra",
+                    "name": "RA",
+                    "title": "RA",
+                    "visible": true
+                },
+                {
+                    "id": "ri",
+                    "name": "RI",
+                    "title": "RI",
+                    "visible": true
+                },
+                {
+                    "id": "species",
+                    "name": "SPECIES",
+                    "title": "SPECIES",
+                    "visible": true
+                },
+                {
+                    "id": "harbporp-comment",
+                    "name": "HARBPORP_COMMENT",
+                    "title": "HARBPORP COMMENT",
+                    "visible": true
+                },
+                {
+                    "id": "source1",
+                    "name": "SOURCE1",
+                    "title": "SOURCE1",
+                    "visible": true
+                },
+                {
+                    "id": "project",
+                    "name": "PROJECT",
+                    "title": "PROJECT",
+                    "visible": true
+                },
+                {
+                    "id": "geometry",
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE ANNO CAD DATA",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE AREA SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE LENGTH M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_WILDLIFE_MANAGEMENT.CRIMS_HARBOUR_PORPOISES",
+            "styleName": "3722"
+        },
+        {
+            "type": "wms",
+            "id": "pub-whse-wildlife-management-crims-harbour-seals--3724",
+            "title": "Distribution of Harbour Seals - Coastal Resource Information Management System (CRIMS) ( 3724 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "hseal-ply-id",
+                    "name": "HSEAL_PLY_ID",
+                    "title": "HSEAL PLY ID",
+                    "visible": true
+                },
+                {
+                    "id": "feature-code",
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE CODE",
+                    "visible": true
+                },
+                {
+                    "id": "ri",
+                    "name": "RI",
+                    "title": "RI",
+                    "visible": true
+                },
+                {
+                    "id": "location",
+                    "name": "LOCATION",
+                    "title": "LOCATION",
+                    "visible": true
+                },
+                {
+                    "id": "species",
+                    "name": "SPECIES",
+                    "title": "SPECIES",
+                    "visible": true
+                },
+                {
+                    "id": "max-num-seals",
+                    "name": "MAX_NUM_SEALS",
+                    "title": "MAX NUM SEALS",
+                    "visible": true
+                },
+                {
+                    "id": "hseal-ply-comment",
+                    "name": "HSEAL_PLY_COMMENT",
+                    "title": "HSEAL PLY COMMENT",
+                    "visible": true
+                },
+                {
+                    "id": "source1",
+                    "name": "SOURCE1",
+                    "title": "SOURCE1",
+                    "visible": true
+                },
+                {
+                    "id": "project",
+                    "name": "PROJECT",
+                    "title": "PROJECT",
+                    "visible": true
+                },
+                {
+                    "id": "geometry",
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE ANNO CAD DATA",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE AREA SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE LENGTH M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_WILDLIFE_MANAGEMENT.CRIMS_HARBOUR_SEALS",
+            "styleName": "3724"
+        },
+        {
+            "type": "wms",
+            "id": "pub-whse-wildlife-management-crims-humpback-whales--3725",
+            "title": "Distribution of Humpback Whales - Coastal Resource Information Management System (CRIMS) ( 3725 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "humpbw-id",
+                    "name": "HUMPBW_ID",
+                    "title": "HUMPBW ID",
+                    "visible": true
+                },
+                {
+                    "id": "feature-code",
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE CODE",
+                    "visible": true
+                },
+                {
+                    "id": "ri",
+                    "name": "RI",
+                    "title": "RI",
+                    "visible": true
+                },
+                {
+                    "id": "location",
+                    "name": "LOCATION",
+                    "title": "LOCATION",
+                    "visible": true
+                },
+                {
+                    "id": "source1",
+                    "name": "SOURCE1",
+                    "title": "SOURCE1",
+                    "visible": true
+                },
+                {
+                    "id": "project",
+                    "name": "PROJECT",
+                    "title": "PROJECT",
+                    "visible": true
+                },
+                {
+                    "id": "geometry",
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE ANNO CAD DATA",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE AREA SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE LENGTH M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_WILDLIFE_MANAGEMENT.CRIMS_HUMPBACK_WHALES",
+            "styleName": "3725"
+        },
+        {
+            "type": "wms",
+            "id": "pub-whse-wildlife-management-crims-killer-whales--3726",
+            "title": "Distribution of Killer Whales - Coastal Resource Information Management System (CRIMS) ( 3726 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "kwhale-id",
+                    "name": "KWHALE_ID",
+                    "title": "KWHALE ID",
+                    "visible": true
+                },
+                {
+                    "id": "feature-code",
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE CODE",
+                    "visible": true
+                },
+                {
+                    "id": "ri",
+                    "name": "RI",
+                    "title": "RI",
+                    "visible": true
+                },
+                {
+                    "id": "location",
+                    "name": "LOCATION",
+                    "title": "LOCATION",
+                    "visible": true
+                },
+                {
+                    "id": "kwhale-comment",
+                    "name": "KWHALE_COMMENT",
+                    "title": "KWHALE COMMENT",
+                    "visible": true
+                },
+                {
+                    "id": "source1",
+                    "name": "SOURCE1",
+                    "title": "SOURCE1",
+                    "visible": true
+                },
+                {
+                    "id": "project",
+                    "name": "PROJECT",
+                    "title": "PROJECT",
+                    "visible": true
+                },
+                {
+                    "id": "geometry",
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE ANNO CAD DATA",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE AREA SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE LENGTH M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_WILDLIFE_MANAGEMENT.CRIMS_KILLER_WHALES",
+            "styleName": "3726"
+        },
+        {
+            "type": "wms",
+            "id": "pub-whse-wildlife-management-crims-northern-fur-seals--3727",
+            "title": "Distribution of Northern Fur Seals - Coastal Resource Information Management System (CRIMS) ( 3727 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "nfurseal-id",
+                    "name": "NFURSEAL_ID",
+                    "title": "NFURSEAL ID",
+                    "visible": true
+                },
+                {
+                    "id": "feature-code",
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE CODE",
+                    "visible": true
+                },
+                {
+                    "id": "ri",
+                    "name": "RI",
+                    "title": "RI",
+                    "visible": true
+                },
+                {
+                    "id": "species",
+                    "name": "SPECIES",
+                    "title": "SPECIES",
+                    "visible": true
+                },
+                {
+                    "id": "nfurseal-comment",
+                    "name": "NFURSEAL_COMMENT",
+                    "title": "NFURSEAL COMMENT",
+                    "visible": true
+                },
+                {
+                    "id": "project",
+                    "name": "PROJECT",
+                    "title": "PROJECT",
+                    "visible": true
+                },
+                {
+                    "id": "geometry",
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE ANNO CAD DATA",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE AREA SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE LENGTH M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_WILDLIFE_MANAGEMENT.CRIMS_NORTHERN_FUR_SEALS",
+            "styleName": "3727"
+        },
+        {
+            "type": "wms",
+            "id": "pub-whse-wildlife-management-crims-pac-white-sided-dolphins--3728",
+            "title": "Distribution of Pacific White Sided Dolphins - CRIMS ( 3728 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "pwsd-id",
+                    "name": "PWSD_ID",
+                    "title": "PWSD ID",
+                    "visible": true
+                },
+                {
+                    "id": "feature-code",
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE CODE",
+                    "visible": true
+                },
+                {
+                    "id": "ra",
+                    "name": "RA",
+                    "title": "RA",
+                    "visible": true
+                },
+                {
+                    "id": "ri",
+                    "name": "RI",
+                    "title": "RI",
+                    "visible": true
+                },
+                {
+                    "id": "location",
+                    "name": "LOCATION",
+                    "title": "LOCATION",
+                    "visible": true
+                },
+                {
+                    "id": "source1",
+                    "name": "SOURCE1",
+                    "title": "SOURCE1",
+                    "visible": true
+                },
+                {
+                    "id": "project",
+                    "name": "PROJECT",
+                    "title": "PROJECT",
+                    "visible": true
+                },
+                {
+                    "id": "geometry",
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE ANNO CAD DATA",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE AREA SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE LENGTH M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_WILDLIFE_MANAGEMENT.CRIMS_PAC_WHITE_SIDED_DOLPHINS",
+            "styleName": "3728"
+        },
+        {
+            "type": "wms",
+            "id": "pub-whse-wildlife-management-crims-seaotters--3729",
+            "title": "Distribution of Sea Otters - Coastal Resource Information Management System (CRIMS) ( 3729 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "seaotter-id",
+                    "name": "SEAOTTER_ID",
+                    "title": "SEAOTTER ID",
+                    "visible": true
+                },
+                {
+                    "id": "feature-code",
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE CODE",
+                    "visible": true
+                },
+                {
+                    "id": "ri",
+                    "name": "RI",
+                    "title": "RI",
+                    "visible": true
+                },
+                {
+                    "id": "location",
+                    "name": "LOCATION",
+                    "title": "LOCATION",
+                    "visible": true
+                },
+                {
+                    "id": "seaotter-comment",
+                    "name": "SEAOTTER_COMMENT",
+                    "title": "SEAOTTER COMMENT",
+                    "visible": true
+                },
+                {
+                    "id": "project",
+                    "name": "PROJECT",
+                    "title": "PROJECT",
+                    "visible": true
+                },
+                {
+                    "id": "geometry",
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE ANNO CAD DATA",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE AREA SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE LENGTH M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_WILDLIFE_MANAGEMENT.CRIMS_SEAOTTERS",
+            "styleName": "3729"
+        },
+        {
+            "type": "wms",
+            "id": "pub-whse-wildlife-management-crims-stellar-sealions--3731",
+            "title": "Distribution of Steller Sealions - Coastal Resource Information Management System (CRIMS) ( 3731 )",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": null,
+            "maxScale": null,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "id": "ssealion-id",
+                    "name": "SSEALION_ID",
+                    "title": "SSEALION ID",
+                    "visible": true
+                },
+                {
+                    "id": "feature-code",
+                    "name": "FEATURE_CODE",
+                    "title": "FEATURE CODE",
+                    "visible": true
+                },
+                {
+                    "id": "ri",
+                    "name": "RI",
+                    "title": "RI",
+                    "visible": true
+                },
+                {
+                    "id": "species",
+                    "name": "SPECIES",
+                    "title": "SPECIES",
+                    "visible": true
+                },
+                {
+                    "id": "ssealion-comment",
+                    "name": "SSEALION_COMMENT",
+                    "title": "SSEALION COMMENT",
+                    "visible": true
+                },
+                {
+                    "id": "project",
+                    "name": "PROJECT",
+                    "title": "PROJECT",
+                    "visible": true
+                },
+                {
+                    "id": "geometry",
+                    "name": "GEOMETRY",
+                    "title": "GEOMETRY",
+                    "visible": true
+                },
+                {
+                    "id": "objectid",
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "id": "se-anno-cad-data",
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE ANNO CAD DATA",
+                    "visible": true
+                },
+                {
+                    "id": "feature-area-sqm",
+                    "name": "FEATURE_AREA_SQM",
+                    "title": "FEATURE AREA SQM",
+                    "visible": true
+                },
+                {
+                    "id": "feature-length-m",
+                    "name": "FEATURE_LENGTH_M",
+                    "title": "FEATURE LENGTH M",
+                    "visible": true
+                }
+            ],
+            "queries": null,
+            "serviceUrl": "https://openmaps.gov.bc.ca/geo/pub/wms",
+            "layerName": "pub:WHSE_WILDLIFE_MANAGEMENT.CRIMS_STELLAR_SEALIONS",
+            "styleName": "3731"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 7755,
+            "title": "Walk-in Clinics",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 37500000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "ORGANIZATION_NAME",
+                    "title": "Organization Name",
+                    "visible": true
+                },
+                {
+                    "name": "SERVICE_REF",
+                    "title": "Service Reference",
+                    "visible": false
+                },
+                {
+                    "name": "SERVICE_NAME",
+                    "title": "Service Name",
+                    "visible": true
+                },
+                {
+                    "name": "DESCRIPTION",
+                    "title": "Description",
+                    "visible": true
+                },
+                {
+                    "name": "CONTACT_PHONE",
+                    "title": "Contact Phone",
+                    "visible": true
+                },
+                {
+                    "name": "WEBSITE_URL",
+                    "title": "Website URL",
+                    "visible": true
+                },
+                {
+                    "name": "CONTACT_EMAIL",
+                    "title": "Contact Email",
+                    "visible": true
+                },
+                {
+                    "name": "WHEELCHAIR_ACCESSIBLE_IND",
+                    "title": "Wheelchair Accessible Ind",
+                    "visible": true
+                },
+                {
+                    "name": "HOURS_OF_OPERATION",
+                    "title": "Hours of Operation",
+                    "visible": true
+                },
+                {
+                    "name": "STREET_ADDRESS",
+                    "title": "Street Address",
+                    "visible": true
+                },
+                {
+                    "name": "LOCALITY",
+                    "title": "Locality",
+                    "visible": true
+                },
+                {
+                    "name": "PROVINCE",
+                    "title": "Province",
+                    "visible": true
+                },
+                {
+                    "name": "POSTAL_CODE",
+                    "title": "Postal Code",
+                    "visible": true
+                },
+                {
+                    "name": "WEBSITE_HEALTHLINKBC_URL",
+                    "title": "HealthLinkBC URL",
+                    "visible": true
+                },
+                {
+                    "name": "KEYWORDS",
+                    "title": "Keywords",
+                    "visible": true
+                },
+                {
+                    "name": "LATITUDE",
+                    "title": "Latitude",
+                    "visible": true
+                },
+                {
+                    "name": "LONGITUDE",
+                    "title": "Longitude",
+                    "visible": true
+                },
+                {
+                    "name": "DATE_UPDATED",
+                    "title": "Date Updated",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE",
+                    "title": "SHAPE",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "7755",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":7755,\"minScale\":37500000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_IMAGERY_AND_BASE_MAPS.GSR_MED_WALK_IN_CLINICS_SV\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriPMS\",\"url\":\"842929cdeaec2a95841223fe2faaed27\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABMAAAAQCAYAAAD0xERiAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAVVJREFUOI2t0z1IQlEYgOHXuHApQuIuIdgQJaGU3oZcIhIqghb70ZYwNCoSI0scRCEIaaqlJQgSQqLFyRZdnSNoqT2I7hCcreEs0RCGkdpVe8ePc57zLUfhH1NMnOlCJ88D68BHZ5iPGCmmOWOLEhedYH2qX12T89LOE2FKXAPv7WFBsnJDugGI4KZChiLpdjAXASax0v21Iz3qijoni/IceGkNC3HMMnrtSK5KnTJZboi0gvnZZQQFy4+pikIYj1bWJoQQd2YwlTj7eHHWfWaGcbEkMuRY/BsbJkGSoQYbQxcQx0GOIFBohtnYZgE7Aw0xgDFcJNnklFtA1sd8ZInibgpVS+CgwB7PnPzCNE3zih3hpBerKczGIFFmSXEFvNViFjElDgngNQVVi+FRC2pa3suDWiyEjpeKqY9fW78clUHbq+3SMIzH6uU8R+RbhL4zMAD4BKorUjlhfHrLAAAAAElFTkSuQmCC\",\"contentType\":\"image/png\",\"width\":14,\"height\":12,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"label\":\"\",\"description\":\"\"},\"transparency\":20,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/5e2707c3-0aa4-4d2d-aedc-4dd0914b686a"
+        },
+        {
+            "type": "esri-dynamic",
+            "id": 7754,
+            "title": "Urgent and Primary Care Centres",
+            "isVisible": true,
+            "isQueryable": true,
+            "opacity": 0.65,
+            "minScale": 37500000,
+            "maxScale": 0,
+            "titleAttribute": null,
+            "attributes": [
+                {
+                    "name": "ORGANIZATION_NAME",
+                    "title": "Organization Name",
+                    "visible": true
+                },
+                {
+                    "name": "SERVICE_REF",
+                    "title": "Service Reference",
+                    "visible": false
+                },
+                {
+                    "name": "SERVICE_NAME",
+                    "title": "Service Name",
+                    "visible": true
+                },
+                {
+                    "name": "DESCRIPTION",
+                    "title": "Description",
+                    "visible": true
+                },
+                {
+                    "name": "CONTACT_PHONE",
+                    "title": "Contact Phone",
+                    "visible": true
+                },
+                {
+                    "name": "WEBSITE_URL",
+                    "title": "Website URL",
+                    "visible": true
+                },
+                {
+                    "name": "CONTACT_EMAIL",
+                    "title": "Contact Email",
+                    "visible": true
+                },
+                {
+                    "name": "WHEELCHAIR_ACCESSIBLE_IND",
+                    "title": "Wheelchair Accessible Ind",
+                    "visible": true
+                },
+                {
+                    "name": "HOURS_OF_OPERATION",
+                    "title": "Hours of Operation",
+                    "visible": true
+                },
+                {
+                    "name": "STREET_ADDRESS",
+                    "title": "Street Address",
+                    "visible": true
+                },
+                {
+                    "name": "LOCALITY",
+                    "title": "Locality",
+                    "visible": true
+                },
+                {
+                    "name": "PROVINCE",
+                    "title": "Province",
+                    "visible": true
+                },
+                {
+                    "name": "POSTAL_CODE",
+                    "title": "Postal Code",
+                    "visible": true
+                },
+                {
+                    "name": "WEBSITE_HEALTHLINKBC_URL",
+                    "title": "HealthLinkBC URL",
+                    "visible": true
+                },
+                {
+                    "name": "KEYWORDS",
+                    "title": "Keywords",
+                    "visible": true
+                },
+                {
+                    "name": "LATITUDE",
+                    "title": "Latitude",
+                    "visible": true
+                },
+                {
+                    "name": "LONGITUDE",
+                    "title": "Longitude",
+                    "visible": true
+                },
+                {
+                    "name": "DATE_UPDATED",
+                    "title": "Date Updated",
+                    "visible": true
+                },
+                {
+                    "name": "SHAPE",
+                    "title": "SHAPE",
+                    "visible": true
+                },
+                {
+                    "name": "OBJECTID",
+                    "title": "OBJECTID",
+                    "visible": true
+                },
+                {
+                    "name": "SE_ANNO_CAD_DATA",
+                    "title": "SE_ANNO_CAD_DATA",
+                    "visible": false
+                }
+            ],
+            "queries": null,
+            "mpcmId": "7754",
+            "mpcmWorkspace": "MPCM_ALL_PUB",
+            "serviceUrl": "https://maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgw/MapServer",
+            "dynamicLayers": [
+                "{\"id\":7754,\"minScale\":37500000,\"maxScale\":0,\"source\":{\"type\":\"dataLayer\",\"dataSource\":{\"type\":\"table\",\"workspaceId\":\"MPCM_ALL_PUB\",\"dataSourceName\":\"WHSE_IMAGERY_AND_BASE_MAPS.GSR_URGNT_PRMRY_CARE_CNTRS_SV\",\"gdbVersion\":\"\"}},\"drawingInfo\":{\"renderer\":{\"type\":\"simple\",\"symbol\":{\"type\":\"esriPMS\",\"url\":\"e8f0f8612dd797a0cbdd4fc7a8d3907f\",\"imageData\":\"iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAsdJREFUOI2t1EtIVGEUwPH/jDlXHZ3siuH00mhMU/OB2CxqSjOLkHZRIUhmjQqWBW2MyEWFRAsJKsxK6KVk7SoRiUiYCCSi8BFqFirlFUe/ohz15qMWlXOvoxbR2d1z7vlxzsfHt4j/HIsWqBkkSUpPN6t7giBpGkKNMNjn4Vm/bK1TFKX1r0FZlu12xO0GoUabzLAxHEIDwT3Cuj4PWxRFOblT4kmDSj7QtyCYJZPfJcS16EiMFWmw1gJGTf14ErwahnMtZNqh/a1Z3iaEaJ4TTJakzDahXi+Lx3AwFvy10q/wN8KGcLjpgNOvCfYbEE+eQ9zvSbWgyWpW7+2KwOCMBb85MG2EmKAsGfa7MOeYqakVOHTgPpmCuwK5eqMvNjoJn75BeACYjHq0NBHsTWyyWq3rFUVpnQEXSzhPRYI1QI81DUCOC5Sf58vlNIi2eOspYZAqQbKqOKuhZAbsU7HtWq3H+kchw+X9fiyg+AU8yvBO6m+E3Svhg2fWym8EASF+erDH43t2jwW4x2F5kDcXHgzdHsJ04FqZybEpTNrmpZIvaAWWmPS5z2MQDKN6MIShtmGW7Vju/XGNBariobDdm6t1QJDmbkwDT92QJvNOB0b603ilhwPOWLD8msAAOONg6woYVCHKDMs0qwJ0fYF6ATEhVOnAgW5KV0nsr+vG6IzzNhgAmwVsvtszMQ2VHVAoM1zRy0MdWAGDl6OkSwXtakmUDFkRcwiamJqG6g5oHIAjNvIRfNeBAMWd6tELMaRsd+G4Gg97bd71taGMQ2UL3OqFE6lSedFL9cHvms/jcKyTzTfiuV6jkH++G0NRFCSEQaAffJ2C5o9wphfyrEyctcuHc5vFVW3/nM9XXjuH6h2UuwUXu0bYVNlBcIcHY6KZqQSZoTupPBx9SUmuIsZm9877wGa7eA9ka3OdKtwX83X8AfzX+AE54NwC9SdL9AAAAABJRU5ErkJggg==\",\"contentType\":\"image/png\",\"width\":15,\"height\":15,\"angle\":0,\"xoffset\":0,\"yoffset\":0},\"label\":\"\",\"description\":\"\"},\"transparency\":20,\"labelingInfo\":null}}"
+            ],
+            "metadataUrl": "https://catalogue.data.gov.bc.ca/dataset/615546e0-2cff-4c6d-9ba6-097d57527f53"
+        }
+    ],
+    "tools": [
+        {
+            "type": "toolbar",
+            "enabled": true
+        },
+        {
+            "type": "list-menu",
+            "enabled": true,
+            "title": "Dave's Map Layers Assignment"
+        },
+        {
+            "type": "pan",
+            "enabled": true
+        },
+        {
+            "mouseWheel": true,
+            "doubleClick": true,
+            "box": true,
+            "control": true,
+            "type": "zoom",
+            "enabled": true
+        },
+        {
+            "type": "about",
+            "enabled": true,
+            "title": "About Dave's Map Layers Assignment",
+            "position": "list-menu",
+            "content": "<p>Welcome to SMK!</p><p>David Marcantonio Technical Assessment Map</p>"
+        },
+        {
+            "order": 3,
+            "position": [
+                "shortcut-menu",
+                "list-menu"
+            ],
+            "icon": "layers",
+            "title": "Layers",
+            "command": {
+                "allVisibility": true,
+                "filter": true,
+                "legend": true
+            },
+            "glyph": {
+                "visible": "visibility",
+                "hidden": "visibility_off"
+            },
+            "type": "layers",
+            "enabled": true,
+            "display": [
+                {
+                    "id": "pub-whse-forest-tenure-fsp-fdu-poly-spg--1417",
+                    "isVisible": true,
+                    "alwaysShowLegend": true
+                },
+                {
+                    "id": 5701,
+                    "alwaysShowLegend": true
+                },
+                {
+                    "id": "pub-whse-wildlife-management-crims-california-sealions--3730",
+                    "isVisible": false
+                },
+                {
+                    "id": "pub-whse-wildlife-management-crims-dalls-porpoises--3720",
+                    "isVisible": false
+                },
+                {
+                    "id": "pub-whse-wildlife-management-crims-gray-whales--3721",
+                    "isVisible": false
+                },
+                {
+                    "id": "pub-whse-wildlife-management-crims-harbour-porpoises--3722",
+                    "isVisible": false
+                },
+                {
+                    "id": "pub-whse-wildlife-management-crims-harbour-seals--3724",
+                    "isVisible": false
+                },
+                {
+                    "id": "pub-whse-wildlife-management-crims-humpback-whales--3725",
+                    "isVisible": false
+                },
+                {
+                    "id": "pub-whse-wildlife-management-crims-killer-whales--3726",
+                    "isVisible": false
+                },
+                {
+                    "id": "pub-whse-wildlife-management-crims-northern-fur-seals--3727",
+                    "isVisible": false
+                },
+                {
+                    "id": "pub-whse-wildlife-management-crims-pac-white-sided-dolphins--3728",
+                    "isVisible": false
+                },
+                {
+                    "id": "pub-whse-wildlife-management-crims-seaotters--3729",
+                    "isVisible": false
+                },
+                {
+                    "id": "pub-whse-wildlife-management-crims-stellar-sealions--3731",
+                    "isVisible": false
+                },
+                {
+                    "id": 7755,
+                    "isVisible": true
+                },
+                {
+                    "id": 7754,
+                    "isVisible": true
+                }
+            ]
+        },
+        {
+            "type": "baseMaps",
+            "enabled": false
+        },
+        {
+            "type": "identify",
+            "enabled": true,
+            "showPanel": true,
+            "showWidget": true,
+            "style": {
+                "strokeWidth": 1,
+                "strokeStyle": "1, 1",
+                "strokeColor": "#000000",
+                "strokeOpacity": 0.8,
+                "fillColor": "#000000",
+                "fillOpacity": 0.5,
+                "markerSize": [
+                    20,
+                    20
+                ],
+                "markerOffset": [
+                    10,
+                    0
+                ]
+            }
+        },
+        {
+            "order": 2,
+            "position": "toolbar",
+            "icon": "search",
+            "title": "Search for Location",
+            "showPanel": true,
+            "showLocation": true,
+            "command": {
+                "identify": true,
+                "measure": true,
+                "directions": true
+            },
+            "type": "search",
+            "enabled": true
+        },
+        {
+            "type": "coordinate",
+            "enabled": true
+        },
+        {
+            "order": 6,
+            "position": [
+                "shortcut-menu",
+                "list-menu"
+            ],
+            "icon": "straighten",
+            "title": "Measurement",
+            "type": "measure",
+            "enabled": false
+        },
+        {
+            "type": "markup",
+            "enabled": true
+        },
+        {
+            "type": "scale",
+            "enabled": true
+        },
+        {
+            "type": "minimap",
+            "enabled": false
+        },
+        {
+            "order": 4,
+            "position": [
+                "shortcut-menu",
+                "list-menu"
+            ],
+            "icon": "directions_car",
+            "title": "Route Planner",
+            "geocoderService": {},
+            "routePlannerService": {},
+            "optimal": false,
+            "roundTrip": false,
+            "criteria": "shortest",
+            "truck": false,
+            "truckRoute": null,
+            "truckHeight": null,
+            "truckWidth": null,
+            "truckLength": null,
+            "truckWeight": null,
+            "command": {
+                "optimal": true,
+                "roundTrip": true,
+                "criteria": true,
+                "vehicleType": true,
+                "truckRoute": true,
+                "truckHeight": true,
+                "truckWidth": true,
+                "truckLength": true,
+                "truckWeight": true,
+                "truckHeightUnit": true,
+                "truckWidthUnit": true,
+                "truckLengthUnit": true,
+                "truckWeightUnit": true
+            },
+            "type": "directions",
+            "enabled": false
+        },
+        {
+            "type": "location",
+            "enabled": true
+        },
+        {
+            "order": 6,
+            "position": "list-menu",
+            "icon": "select_all",
+            "title": "Selected Features",
+            "command": {
+                "clear": true,
+                "remove": true
+            },
+            "type": "select",
+            "enabled": true
+        },
+        {
+            "title": "Geomark",
+            "order": 3,
+            "type": "geomark",
+            "geomarkService": {
+                "url": "https://apps.gov.bc.ca/pub/geomark"
+            },
+            "position": "list-menu",
+            "enabled": false
+        },
+        {
+            "title": "Version Info",
+            "position": "list-menu",
+            "order": 99,
+            "icon": "build",
+            "type": "version",
+            "enabled": true
+        },
+        {
+            "order": 1,
+            "position": "toolbar",
+            "icon": "now_widgets",
+            "title": "Bespoke Tool",
+            "useComponent": true,
+            "component": {
+                "template": "<div>Custom content for tool</div>"
+            },
+            "type": "bespoke",
+            "instance": "101",
+            "enabled": false
+        },
+        {
+            "type": "legend",
+            "enabled": false
+        },
+        {
+            "type": "shortcut-menu",
+            "enabled": true
+        }
+    ],
+    "version": "1.1.9",
+    "createdBy": "David Marcantonio",
+    "createdDate": "2023-04-12T23:03:46.686Z"
+}

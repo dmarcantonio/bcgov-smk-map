@@ -1,0 +1,6 @@
+#g  Local History for Visual Studio Code
+.history/
+
+# Dependency directories
+node_modules/
+jspm_packages/

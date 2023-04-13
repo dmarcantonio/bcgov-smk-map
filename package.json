@@ -1,0 +1,13 @@
+{
+    "name": "assignment-app",
+    "version": "0.0.1",
+    "description": "David Marcantonio Technical Assessment Map",
+    "author": "David Marcantonio",
+    "dependencies": {
+        "@bcgov/smk": "1.1.9",
+        "http-server": "^0.12.3"
+    },
+    "scripts": {
+        "view": "http-server -o -c-1"
+    }
+}
